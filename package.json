@@ -1,0 +1,72 @@
+{
+  "name": "@flux-format/flux",
+  "version": "1.0.0",
+  "description": "Next-generation serialization format for LLMs - 50-75% token reduction with adaptive compression",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "flux": "dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts src/cli.ts --format cjs,esm --dts",
+    "test": "tsx flux-tests.ts",
+    "examples": "tsx flux-examples.ts",
+    "dev": "tsx --watch src/cli.ts",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "llm",
+    "serialization",
+    "json",
+    "token-efficient",
+    "compression",
+    "ai",
+    "machine-learning",
+    "data-format",
+    "encoding",
+    "gpt",
+    "claude",
+    "prompt-engineering"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/flux"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/flux/issues"
+  },
+  "homepage": "https://github.com/yourusername/flux#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
