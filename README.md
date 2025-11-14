@@ -1,4 +1,4 @@
-⚠️ 99.99% of this repo is vibe-coded!
+⚠️ 99.99% of this repo is vibe-coded! ⚠️
 
 # FLUX: Format for LLM Understanding and eXchange
 
