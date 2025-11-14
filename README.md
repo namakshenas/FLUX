@@ -1,3 +1,5 @@
+⚠️ 99.99% of this repo is vibe-coded!
+
 # FLUX: Format for LLM Understanding and eXchange
 
 > **A next-generation serialization format that achieves 50-75% token reduction vs JSON while being easier for LLMs to parse, generate, and validate.**
