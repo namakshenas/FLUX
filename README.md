@@ -1,4 +1,4 @@
-⚠️ 99.99% of this repo is vibe-coded! The entire goal of this repo is to mock the so-called TOON!⚠️
+⚠️ 99.99% of this repo is vibe-coded! A trolling repo gifted to TOON!⚠️
 
 # FLUX: Format for LLM Understanding and eXchange
 
